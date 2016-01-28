@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+    <ImageView android:id="@+id/iv_avater"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/avater"/>
+    <TextView android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="名称"
+        android:layout_toRightOf="@+id/iv_avater"
+        android:layout_alignTop="@+id/iv_avater"
+        android:layout_marginLeft="8dp"/>
+    <TextView android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消息内容"
+        android:layout_toRightOf="@+id/iv_avater"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        />
+
+</RelativeLayout>
+<!-- From: file:/E:/Android/AndroidStudioWorkspace/UPatch/ChatSmark/src/main/res/layout/view_chat_list_left_item.xml -->

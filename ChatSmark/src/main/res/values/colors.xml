@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 灰色 -->
+    <color name="light_gray">#CDCDCD</color>
+    <color name="drak_gray">#AFAFAF</color>
+</resources>

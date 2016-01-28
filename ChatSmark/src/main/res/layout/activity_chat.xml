@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  	android:paddingLeft="10dp"
+  	android:paddingRight="10dp"
+    tools:context=".ChatActivity" >
+
+  <RelativeLayout android:id="@+id/container_bottom"
+       android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:paddingTop="8dp"
+      android:paddingBottom="8dp">
+      <Button android:id="@+id/btn_send"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:text="@string/send"/>
+      <EditText android:id="@+id/et_msg"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_toLeftOf="@+id/btn_send"
+          android:layout_centerVertical="true"
+          />
+  </RelativeLayout>
+<ListView android:id="@+id/lv_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/container_bottom"></ListView>
+</RelativeLayout>
